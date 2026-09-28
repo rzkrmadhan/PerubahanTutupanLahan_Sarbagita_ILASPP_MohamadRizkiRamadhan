@@ -115,7 +115,7 @@ Lahan terbangun menunjukkan peningkatan sebesar 5,7 poin persen dalam periode ti
 Overall Accuracy: 93,52%
 Cohen's Kappa: 0,8601 (kategori Almost Perfect, mengacu pada Landis dan Koch, 1977)
 
-| Kelas | Producer's Accuracy | User's Accuracy |
+| Kelas | User's Accuracy | Producer's Accuracy |
 |---|---|---|
 | Built-up | 88,76% | 83,33% |
 | Vegetation | 97,30% | 98,04% |
