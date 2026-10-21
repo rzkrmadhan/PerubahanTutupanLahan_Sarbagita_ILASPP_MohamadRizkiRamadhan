@@ -2,6 +2,10 @@
 
 Analisis ini disusun untuk penugasan seleksi Tenaga Ahli GIS Analyst di ILASPP, dengan fokus pada penyusunan peta tematik derivatif proyeksi perubahan tutupan lahan di Kawasan Aglomerasi Sarbagita (Denpasar, Badung, Gianyar, Tabanan), Provinsi Bali.
 
+![Peta tutupan lahan Sarbagita 2020, 2023, dan proyeksi 2026](images/peta_tutupan_lahan_sarbagita.png)
+
+*Gambar dibuat dari file di folder `output/` pakai `src/make_figure.py`.*
+
 ## 1. Ringkasan
 
 Analisis ini mengklasifikasikan tutupan lahan Kawasan Sarbagita pada tahun 2020 dan 2023 menggunakan citra Sentinel-2A RGB dan algoritma Random Forest, dengan Overall Accuracy 93,52% dan Cohen's Kappa 0,8601 (kategori Almost Perfect). Hasil klasifikasi menunjukkan tren peningkatan lahan terbangun yang konsisten, dari 19,6% (2020) menjadi 25,3% (2023), diiringi penurunan tutupan vegetasi dari 48,1% menjadi 40,5%. Proyeksi ke tahun 2026 menggunakan model Markov Chain yang dimodifikasi dengan driving factor dan restricting factor menghasilkan estimasi lahan terbangun mencapai 43,7%, dengan validasi hindcast menunjukkan Overall Accuracy 67,49% dan Cohen's Kappa 0,5106 (kategori Moderate). Analisis ini memiliki sejumlah keterbatasan metodologis yang dijelaskan pada bagian 6.
